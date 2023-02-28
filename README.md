@@ -1,5 +1,13 @@
 # cordova-ourcodeworld-filebrowser Plugin
 
+# Notes
+
+I forked the repository due to little (if any) support from the original author for this plugin.
+I tried to make it compatible with cordova 11 but only android side.
+The original plugin has several problems completing the build process. The features are still in the testing phase.
+
+## Original Readme
+
 A cordova implementation of [NoNonsense-FilePicker](https://github.com/spacecowboy/NoNonsense-FilePicker) for Android.
 
 This plugin allow you to select folder and files, and at the same time create folders and create files (not a file is created actually, but it will return the filepath and name of the "choosen path").
