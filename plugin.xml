@@ -18,7 +18,7 @@
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="com.ourcodeworld.plugins.filebrowser.DialogShowPicker"
                 android:label="Our Code World filepicker">
-                <intent-filter>
+                <intent-filter android:exported="true">
                    <action android:name="com.ourcodeworld.plugins.filebrowser.DialogShowPicker" />
                      <category android:name="android.intent.category.DEFAULT" />
                  </intent-filter>
@@ -28,7 +28,7 @@
                android:name="com.nononsenseapps.filepicker.FilePickerActivity"
                android:label="Filepicker"
                android:theme="@style/FilePickerTheme">
-               <intent-filter>
+               <intent-filter  android:exported="true">>
                   <action android:name="android.intent.action.GET_CONTENT" />
                   <category android:name="android.intent.category.DEFAULT" />
                </intent-filter>
